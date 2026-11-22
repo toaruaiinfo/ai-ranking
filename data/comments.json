@@ -18,5 +18,13 @@
   "GPT-6 Astra (Max)": "OpenAI製。ソフトウェア開発やパソコン操作、資料作りが得意。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
   "GPT-6.2 Astra (Max)": "OpenAI製の最上位モデル。難しい開発や資料作り、科学・法律分野の作業が得意。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
   "GPT-6.2 Sol (Max)": "OpenAI製の日常向けモデル。複数手順の作業や自然な文章が得意で速い。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
-  "FLUX 3 Video": "Black Forest Labs製の動画生成モデル。セリフや効果音つきの動画を作れ、文章や画像から生成できる。BFLのAPIで使える。"
+  "FLUX 3 Video": "Black Forest Labs製の動画生成モデル。セリフや効果音つきの動画を作れ、文章や画像から生成できる。BFLのAPIで使える。",
+  "Gemini 4 Carbon (High)": "Google製。サイバーセキュリティや、長く続く複雑な開発作業が得意な上位モデル。(High)は考える深さの設定。",
+  "Gemini 4 Argon (High)": "Google製。コーディングや金融・法律・科学など、複雑な実務の深い作業が得意。(High)は考える深さの設定。",
+  "Gemini 4 Neon (High)": "Google製。開発や知的作業を速くこなすのが得意。Geminiアプリ（有料プラン）やAPIで使える。(High)は考える深さの設定。",
+  "Muse Wonder (Max)": "Meta製。手続きなど複数手順の作業、法律・金融分野、コーディングが得意。Meta Model APIで使える。(Max)は考える深さの最大設定。",
+  "gemini-omni-flash": "Google製の動画生成モデル。文章・画像・音声・動画から動画を作り、会話しながら編集できる。GeminiアプリやAPIで使える。",
+  "Gemini Omni 1.1 Flash": "Google製の動画生成モデル。動画の延長やつなぎ、高画質化ができる。Google AI StudioのAPIやFlowで使える。",
+  "Gemini Omni 1.2 Flash": "Google製の動画生成モデルGemini Omni Flashの新版。Google Cloudで使える。",
+  "Dreamina Seedance 2.5 (720p)": "ByteDance製の動画生成モデル。音声付きの長めの動画を一度に作れ、多くの画像・動画を参考にできる。(720p)は解像度。"
 }

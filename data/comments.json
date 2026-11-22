@@ -1,0 +1,22 @@
+{
+  "Claude Opus 4.6": "Anthropic製。コーディングや長い資料の読み取り、調査・分析などの知的作業が得意。Claudeアプリや各種APIで使える。",
+  "Claude Opus 4.6 (High)": "Anthropic製。コーディングや長い資料の読み取り、調査・分析などの知的作業が得意。(High)は考える深さの設定。Claudeアプリや各種APIで使える。",
+  "Claude Opus 4.7": "Anthropic製。難しいソフトウェア開発や長時間の作業、画像の読み取りが得意。Claudeアプリや各種APIで使える。",
+  "Claude Opus 4.7 (High)": "Anthropic製。難しいソフトウェア開発や長時間の作業、画像の読み取りが得意。(High)は考える深さの設定。Claudeアプリや各種APIで使える。",
+  "Claude Opus 5.5 (High)": "Anthropic製。大規模なコード作業や調査・分析、わかりやすい文章作成が得意。(High)は考える深さの設定。Claudeアプリや各種APIで使える。",
+  "Claude Opus 5.5 (Max)": "Anthropic製。大規模なコード作業や調査・分析、わかりやすい文章作成が得意。(Max)は考える深さの最大設定。Claudeアプリや各種APIで使える。",
+  "GPT-5.5 (High)": "OpenAI製。コーディングやパソコン操作、資料・表計算などの作業が得意。ChatGPT、Codex、APIで使える。(High)は考える深さの設定。",
+  "Grok Imagine Video 1.5": "xAI製の動画生成モデル。画像から動画を作り、効果音やセリフも同時に生成。自然な動きが得意。APIで使える。",
+  "Wan 3.0": "Alibaba製の動画生成モデル。文章・画像・音声・資料など多様な入力から長めの動画を作れる。Alibaba CloudのAPIで使える。",
+  "Dreamina Seedance 2.0 (720p)": "ByteDance製の動画生成モデル。複雑な動きや物理的に自然な映像が得意。文章・画像・音声・動画を参考に音声付き動画を作れる。",
+  "Claude Fable 5 (High)": "Anthropic製。長く複雑なソフトウェア開発や分析、画像の読み取りが得意。(High)は考える深さの設定。",
+  "Claude Fable 5.1 (Max)": "Anthropic製。Fable 5.2の前の世代で、現在は旧モデル扱い。APIや主要クラウドで使える。(Max)は考える深さの最大設定。",
+  "Claude Fable 5.2 (Max)": "Anthropic製。難しいコーディングや推論、画像の読み取りが得意。Claudeアプリや各種APIで使える。(Max)は考える深さの最大設定。",
+  "Claude Fable 5.2 (xHigh)": "Anthropic製。難しいコーディングや推論、画像の読み取りが得意。Claudeアプリや各種APIで使える。(xHigh)は考える深さの設定。",
+  "Claude Opus 5 (High)": "Anthropic製。Opus 5.5の前の世代で、現在は旧モデル扱い。APIや主要クラウドで使える。(High)は考える深さの設定。",
+  "Claude Sonnet 5.5 (xHigh)": "Anthropic製。日常的な作業やバグ修正、資料・表計算作りが得意。Claudeアプリや各種APIで使える。(xHigh)は考える深さの設定。",
+  "GPT-6 Astra (Max)": "OpenAI製。ソフトウェア開発やパソコン操作、資料作りが得意。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
+  "GPT-6.2 Astra (Max)": "OpenAI製の最上位モデル。難しい開発や資料作り、科学・法律分野の作業が得意。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
+  "GPT-6.2 Sol (Max)": "OpenAI製の日常向けモデル。複数手順の作業や自然な文章が得意で速い。ChatGPT、Codex、APIで使える。(Max)は考える深さの最大設定。",
+  "FLUX 3 Video": "Black Forest Labs製の動画生成モデル。セリフや効果音つきの動画を作れ、文章や画像から生成できる。BFLのAPIで使える。"
+}

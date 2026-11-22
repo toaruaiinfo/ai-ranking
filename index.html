@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>とあるAIの順位表｜用途別AIランキング</title>
+  <meta name="description" content="世界中のユーザーがどのAIか伏せたまま回答を比べて投票した結果をもとにした、用途別のAIランキング。普段使い・業務使い・コーディング・動画生成の4部門。毎日3回自動更新。">
+  <meta name="theme-color" content="#0B0F1E">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="とあるAIの順位表">
+  <meta property="og:title" content="とあるAIの順位表｜用途別AIランキング">
+  <meta property="og:description" content="いま最強のAIはどれだ。普段使い・業務使い・コーディング・動画生成の4部門で、王者をチェック。毎日3回自動更新。">
+  <meta property="og:url" content="https://toaruaiinfo.github.io/ai-ranking/">
+  <meta property="og:image" content="https://toaruaiinfo.github.io/ai-ranking/assets/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="とあるAIの順位表｜用途別AIランキング">
+  <meta name="twitter:description" content="いま最強のAIはどれだ。用途別の4部門で、王者をチェック。">
+  <meta name="twitter:image" content="https://toaruaiinfo.github.io/ai-ranking/assets/ogp.png">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B0F1E'/%3E%3Cpath d='M7 22h18l-2-11-5 5-2-7-2 7-5-5z' fill='%23F5C542'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="season" id="season">SEASON</p>
+      <h1>いま最強のAIはどれだ</h1>
+      <p class="lead">世界中のユーザーが、どのAIか伏せたまま回答を比べて投票した結果をもとにしたランキングです。用途ごとの部門で、王者をチェック。</p>
+    </section>
+
+    <nav class="tabs" id="tabs" aria-label="部門の切り替え"></nav>
+
+    <section class="card board" id="board" aria-live="polite">
+      <p class="loading">読み込み中…</p>
+    </section>
+
+    <div class="info-grid">
+      <section class="card info">
+        <h2>スコアの見かた</h2>
+        <p>2つのAIの回答を、どちらか伏せたまま比べた投票から計算した点数です。数値が近いAIどうしは、実力はほぼ互角です。スコアの比較は同じ部門の中だけで有効です。</p>
+      </section>
+      <section class="card info">
+        <h2>ひとこと解説</h2>
+        <div id="comments"><p class="muted">準備中</p></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer wrap">
+    <p>出典：<a id="source-link" href="https://arena.ai/" target="_blank" rel="noopener">Arena（arena.ai）</a>の公開リーダーボードデータ（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>）をもとに作成。順位は暫定値を含みます。</p>
+    <p>最終更新：<span id="fetched-at">—</span>／<span id="schedule">毎日 7:00・12:00・19:00 自動更新</span></p>
+    <p>運営：<a id="operator" href="https://x.com/" target="_blank" rel="noopener">とあるメーカー社員のAI目録</a>（X）</p>
+  </footer>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

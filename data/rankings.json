@@ -1,0 +1,262 @@
+{
+  "fetched_at": "2026-11-22T22:50:14+09:00",
+  "source": "lmarena-ai/leaderboard-dataset",
+  "categories": [
+    {
+      "key": "daily",
+      "label": "普段使い",
+      "board": "Text",
+      "published": "2026-11-19",
+      "models": [
+        {
+          "rank": 1,
+          "name": "Gemini 4 Carbon (High)",
+          "org": "google",
+          "score": 1527,
+          "votes": 4262
+        },
+        {
+          "rank": 2,
+          "name": "Gemini 4 Argon (High)",
+          "org": "google",
+          "score": 1520,
+          "votes": 27193
+        },
+        {
+          "rank": 3,
+          "name": "Gemini 4 Neon (High)",
+          "org": "google",
+          "score": 1513,
+          "votes": 5555
+        },
+        {
+          "rank": 4,
+          "name": "Muse Wonder (Max)",
+          "org": "meta",
+          "score": 1511,
+          "votes": 16158
+        },
+        {
+          "rank": 5,
+          "name": "Claude Opus 5.5 (High)",
+          "org": "anthropic",
+          "score": 1506,
+          "votes": 18286
+        },
+        {
+          "rank": 6,
+          "name": "Claude Fable 5 (High)",
+          "org": "anthropic",
+          "score": 1504,
+          "votes": 45315
+        },
+        {
+          "rank": 7,
+          "name": "Claude Fable 5.2 (Max)",
+          "org": "anthropic",
+          "score": 1503,
+          "votes": 5216
+        },
+        {
+          "rank": 8,
+          "name": "Claude Opus 4.6 (High)",
+          "org": "anthropic",
+          "score": 1503,
+          "votes": 84188
+        }
+      ]
+    },
+    {
+      "key": "work",
+      "label": "業務使い",
+      "board": "Document",
+      "published": "2026-11-09",
+      "models": [
+        {
+          "rank": 1,
+          "name": "Claude Fable 5.1 (Max)",
+          "org": "anthropic",
+          "score": 1515,
+          "votes": 1453
+        },
+        {
+          "rank": 2,
+          "name": "Claude Opus 5 (High)",
+          "org": "anthropic",
+          "score": 1509,
+          "votes": 16189
+        },
+        {
+          "rank": 3,
+          "name": "Claude Opus 4.6 (High)",
+          "org": "anthropic",
+          "score": 1508,
+          "votes": 29456
+        },
+        {
+          "rank": 4,
+          "name": "Claude Opus 4.6",
+          "org": "anthropic",
+          "score": 1506,
+          "votes": 47264
+        },
+        {
+          "rank": 5,
+          "name": "Claude Fable 5 (High)",
+          "org": "anthropic",
+          "score": 1497,
+          "votes": 12357
+        },
+        {
+          "rank": 6,
+          "name": "Claude Opus 4.7 (High)",
+          "org": "anthropic",
+          "score": 1496,
+          "votes": 23327
+        },
+        {
+          "rank": 7,
+          "name": "Claude Opus 4.7",
+          "org": "anthropic",
+          "score": 1495,
+          "votes": 23628
+        },
+        {
+          "rank": 8,
+          "name": "GPT-5.5 (High)",
+          "org": "openai",
+          "score": 1484,
+          "votes": 27324
+        }
+      ]
+    },
+    {
+      "key": "code",
+      "label": "コーディング",
+      "board": "WebDev",
+      "published": "2026-11-20",
+      "models": [
+        {
+          "rank": 1,
+          "name": "Claude Fable 5.2 (xHigh)",
+          "org": "anthropic",
+          "score": 1824,
+          "votes": 2042
+        },
+        {
+          "rank": 2,
+          "name": "Claude Opus 5.5 (Max)",
+          "org": "anthropic",
+          "score": 1819,
+          "votes": 4952
+        },
+        {
+          "rank": 3,
+          "name": "Claude Sonnet 5.5 (xHigh)",
+          "org": "anthropic",
+          "score": 1772,
+          "votes": 6785
+        },
+        {
+          "rank": 4,
+          "name": "Gemini 4 Carbon (High)",
+          "org": "google",
+          "score": 1769,
+          "votes": 2093
+        },
+        {
+          "rank": 5,
+          "name": "GPT-6.2 Astra (Max)",
+          "org": "openai",
+          "score": 1766,
+          "votes": 1913
+        },
+        {
+          "rank": 6,
+          "name": "Gemini 4 Neon (High)",
+          "org": "google",
+          "score": 1765,
+          "votes": 2305
+        },
+        {
+          "rank": 7,
+          "name": "GPT-6 Astra (Max)",
+          "org": "openai",
+          "score": 1764,
+          "votes": 9391
+        },
+        {
+          "rank": 8,
+          "name": "GPT-6.2 Sol (Max)",
+          "org": "openai",
+          "score": 1754,
+          "votes": 2067
+        }
+      ]
+    },
+    {
+      "key": "video",
+      "label": "動画生成",
+      "board": "Text to Video",
+      "published": "2026-11-09",
+      "models": [
+        {
+          "rank": 1,
+          "name": "Gemini Omni 1.2 Flash",
+          "org": "google",
+          "score": 1540,
+          "votes": 1714
+        },
+        {
+          "rank": 2,
+          "name": "Gemini Omni 1.1 Flash",
+          "org": "google",
+          "score": 1513,
+          "votes": 1792
+        },
+        {
+          "rank": 3,
+          "name": "gemini-omni-flash",
+          "org": "google",
+          "score": 1509,
+          "votes": 46707
+        },
+        {
+          "rank": 4,
+          "name": "FLUX 3 Video",
+          "org": "bfl",
+          "score": 1491,
+          "votes": 1314
+        },
+        {
+          "rank": 5,
+          "name": "Grok Imagine Video 1.5",
+          "org": "xai",
+          "score": 1488,
+          "votes": 1249
+        },
+        {
+          "rank": 6,
+          "name": "Dreamina Seedance 2.0 (720p)",
+          "org": "bytedance",
+          "score": 1483,
+          "votes": 72137
+        },
+        {
+          "rank": 7,
+          "name": "Dreamina Seedance 2.5 (720p)",
+          "org": "bytedance",
+          "score": 1479,
+          "votes": 25421
+        },
+        {
+          "rank": 8,
+          "name": "Wan 3.0",
+          "org": "alibaba",
+          "score": 1476,
+          "votes": 3060
+        }
+      ]
+    }
+  ]
+}

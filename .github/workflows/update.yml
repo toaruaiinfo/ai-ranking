@@ -1,0 +1,75 @@
+name: Update rankings & deploy
+
+on:
+  schedule:
+    # 日本時間 7:00 / 12:00 / 19:00（cron は UTC）
+    - cron: "0 22,3,10 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      fetch_outcome: ${{ steps.fetch.outcome }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # 取得・検証。失敗しても既存の rankings.json は残るので、そのままデプロイは続ける
+      - name: Fetch rankings
+        id: fetch
+        continue-on-error: true
+        run: python scripts/fetch_rankings.py
+
+      # ランキング内容に変化があったときだけコミット
+      - name: Commit if changed
+        if: steps.fetch.outcome == 'success' && steps.fetch.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rankings.json
+          git commit -m "Update rankings $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git push
+
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data _site/
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      # 取得に失敗していたら（前回データで公開したうえで）ジョブを赤にして気づけるようにする
+      - name: Report fetch failure
+        if: needs.build.outputs.fetch_outcome == 'failure'
+        run: |
+          echo "::error::ランキングの取得に失敗しました。前回のデータで公開しています。"
+          exit 1

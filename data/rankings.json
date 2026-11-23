@@ -1,68 +1,68 @@
 {
-  "fetched_at": "2026-11-22T22:50:14+09:00",
+  "fetched_at": "2026-11-23T19:59:33+09:00",
   "source": "lmarena-ai/leaderboard-dataset",
   "categories": [
     {
       "key": "daily",
       "label": "普段使い",
       "board": "Text",
-      "published": "2026-11-19",
+      "published": "2026-11-22",
       "models": [
         {
           "rank": 1,
           "name": "Gemini 4 Carbon (High)",
           "org": "google",
           "score": 1527,
-          "votes": 4262
+          "votes": 4255
         },
         {
           "rank": 2,
           "name": "Gemini 4 Argon (High)",
           "org": "google",
           "score": 1520,
-          "votes": 27193
+          "votes": 28856
         },
         {
           "rank": 3,
           "name": "Gemini 4 Neon (High)",
           "org": "google",
-          "score": 1513,
-          "votes": 5555
+          "score": 1512,
+          "votes": 5611
         },
         {
           "rank": 4,
           "name": "Muse Wonder (Max)",
           "org": "meta",
-          "score": 1511,
-          "votes": 16158
+          "score": 1512,
+          "votes": 17102
         },
         {
           "rank": 5,
           "name": "Claude Opus 5.5 (High)",
           "org": "anthropic",
-          "score": 1506,
-          "votes": 18286
+          "score": 1507,
+          "votes": 18959
         },
         {
           "rank": 6,
           "name": "Claude Fable 5 (High)",
           "org": "anthropic",
           "score": 1504,
-          "votes": 45315
+          "votes": 45277
         },
         {
           "rank": 7,
-          "name": "Claude Fable 5.2 (Max)",
-          "org": "anthropic",
-          "score": 1503,
-          "votes": 5216
-        },
-        {
-          "rank": 8,
           "name": "Claude Opus 4.6 (High)",
           "org": "anthropic",
           "score": 1503,
-          "votes": 84188
+          "votes": 84109
+        },
+        {
+          "rank": 8,
+          "name": "Claude Fable 5.2 (Max)",
+          "org": "anthropic",
+          "score": 1502,
+          "votes": 5842
         }
       ]
     },
@@ -134,63 +134,63 @@
       "key": "code",
       "label": "コーディング",
       "board": "WebDev",
-      "published": "2026-11-20",
+      "published": "2026-11-22",
       "models": [
         {
           "rank": 1,
           "name": "Claude Fable 5.2 (xHigh)",
           "org": "anthropic",
-          "score": 1824,
-          "votes": 2042
+          "score": 1822,
+          "votes": 2124
         },
         {
           "rank": 2,
           "name": "Claude Opus 5.5 (Max)",
           "org": "anthropic",
-          "score": 1819,
-          "votes": 4952
+          "score": 1820,
+          "votes": 5075
         },
         {
           "rank": 3,
           "name": "Claude Sonnet 5.5 (xHigh)",
           "org": "anthropic",
           "score": 1772,
-          "votes": 6785
+          "votes": 6925
         },
         {
           "rank": 4,
           "name": "Gemini 4 Carbon (High)",
           "org": "google",
           "score": 1769,
-          "votes": 2093
+          "votes": 2092
         },
         {
           "rank": 5,
-          "name": "GPT-6.2 Astra (Max)",
-          "org": "openai",
+          "name": "Gemini 4 Neon (High)",
+          "org": "google",
           "score": 1766,
-          "votes": 1913
+          "votes": 2310
         },
         {
           "rank": 6,
-          "name": "Gemini 4 Neon (High)",
-          "org": "google",
-          "score": 1765,
-          "votes": 2305
-        },
-        {
-          "rank": 7,
           "name": "GPT-6 Astra (Max)",
           "org": "openai",
           "score": 1764,
-          "votes": 9391
+          "votes": 9495
+        },
+        {
+          "rank": 7,
+          "name": "GPT-6.2 Astra (Max)",
+          "org": "openai",
+          "score": 1759,
+          "votes": 2088
         },
         {
           "rank": 8,
           "name": "GPT-6.2 Sol (Max)",
           "org": "openai",
-          "score": 1754,
-          "votes": 2067
+          "score": 1755,
+          "votes": 2247
         }
       ]
     },

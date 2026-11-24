@@ -26,5 +26,6 @@
   "gemini-omni-flash": "Google製の動画生成モデル。文章・画像・音声・動画から動画を作り、会話しながら編集できる。GeminiアプリやAPIで使える。",
   "Gemini Omni 1.1 Flash": "Google製の動画生成モデル。動画の延長やつなぎ、高画質化ができる。Google AI StudioのAPIやFlowで使える。",
   "Gemini Omni 1.2 Flash": "Google製の動画生成モデルGemini Omni Flashの新版。Google Cloudで使える。",
-  "Dreamina Seedance 2.5 (720p)": "ByteDance製の動画生成モデル。音声付きの長めの動画を一度に作れ、多くの画像・動画を参考にできる。(720p)は解像度。"
+  "Dreamina Seedance 2.5 (720p)": "ByteDance製の動画生成モデル。音声付きの長めの動画を一度に作れ、多くの画像・動画を参考にできる。(720p)は解像度。",
+  "Gemini 4 Neon (xHigh)": "Google製。開発や知的作業を速くこなすのが得意。Geminiアプリ（有料プラン）やAPIで使える。(xHigh)は考える深さの設定。"
 }

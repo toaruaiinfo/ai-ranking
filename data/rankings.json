@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T19:59:33+09:00",
+  "fetched_at": "2026-11-24T19:52:01+09:00",
   "source": "lmarena-ai/leaderboard-dataset",
   "categories": [
     {
@@ -134,63 +134,63 @@
       "key": "code",
       "label": "コーディング",
       "board": "WebDev",
-      "published": "2026-11-22",
+      "published": "2026-11-23",
       "models": [
         {
           "rank": 1,
           "name": "Claude Fable 5.2 (xHigh)",
           "org": "anthropic",
           "score": 1822,
-          "votes": 2124
+          "votes": 2159
         },
         {
           "rank": 2,
           "name": "Claude Opus 5.5 (Max)",
           "org": "anthropic",
           "score": 1820,
-          "votes": 5075
+          "votes": 5121
         },
         {
           "rank": 3,
           "name": "Claude Sonnet 5.5 (xHigh)",
           "org": "anthropic",
-          "score": 1772,
-          "votes": 6925
+          "score": 1773,
+          "votes": 6973
         },
         {
           "rank": 4,
           "name": "Gemini 4 Carbon (High)",
           "org": "google",
           "score": 1769,
-          "votes": 2092
+          "votes": 2091
         },
         {
           "rank": 5,
-          "name": "Gemini 4 Neon (High)",
+          "name": "Gemini 4 Neon (xHigh)",
           "org": "google",
-          "score": 1766,
-          "votes": 2310
+          "score": 1765,
+          "votes": 2308
         },
         {
           "rank": 6,
           "name": "GPT-6 Astra (Max)",
           "org": "openai",
           "score": 1764,
-          "votes": 9495
+          "votes": 9541
         },
         {
           "rank": 7,
           "name": "GPT-6.2 Astra (Max)",
           "org": "openai",
-          "score": 1759,
-          "votes": 2088
+          "score": 1761,
+          "votes": 2170
         },
         {
           "rank": 8,
           "name": "GPT-6.2 Sol (Max)",
           "org": "openai",
           "score": 1755,
-          "votes": 2247
+          "votes": 2336
         }
       ]
     },
